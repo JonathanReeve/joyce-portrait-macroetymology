@@ -41,10 +41,6 @@ Among proportions of Hellenic words, as shown in [@fig:brown-hel], the picture i
 
 ![Brown Corpus: Hellenic Words](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/brown-hel.png){#fig:brown-hel} 
 
-![Victorian and Modernist Writers](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/vicmod-sort-lat.png){#fig:vicmod}
-
-The Brown Corpus, admittedly, is several decades and an ocean removed from Joyce's language. To account in part for temporal factors of etymology in literature, another calibratory analysis was conducted, shown in [@fig:vicmod], comparing four Victorian writers with four Modernist writers, to see whether the greatly diverging styles of these literary periods could be detected in their macro-etymologies. The novels analyzed were, for the Victorians, Dickens's _Bleak House_, Gaskell's _North and South_, Hardy's _Jude the Obscure_, and Brontë's _Jane Eyre_. The Modernist novels analyzed were Woolf's _To the Lighthouse_, Lawrence's _Lady Chatterly's Lover_, Stein's _The Making of Americans_, and Joyce's _Ulysses_. As one might expect, the novels separated cleanly between Victorian and Modernist writers, with the exception of _Ulysses_. This Joycean work showed the second-highest proportions of Latinate words, next to Brontë's _Jane Eyre_. This seems to suggest that, excepting Joyce, L scores are generally higher among older English novelists. 
-
 #Languages
 
 ##Latinate
