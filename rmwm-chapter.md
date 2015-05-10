@@ -33,9 +33,9 @@ Since Uncle Charles himself made only a momentary appearance in _Portrait_, a mo
 
 To find significance in these etymological signals, the Macro-Etymological Analyzer was trained on genres extracted from the Brown University Standard Corpus of Present-Day American English, a much-studied linguistic corpus of approximately one million words, created in the 1950s. The corpus is broken into genre categories such as "science fiction," "belles lettres," "humor," and "news." Each of these categories was [extracted using the Python NLTK](https://gist.github.com/JonathanReeve/ac543e9541d1647c1c3b) and analyzed. [@fig:brown-lat] shows the occurrence of Latinate words in categories of the Brown Corpus. The genres are divided fairly cleanly between fiction and non-fiction, with the fiction genres "adventure" and "romance" on the low end of the spectrum, and the non-fiction genres "learned" and "government" on the high end. Strikingly, the genres "Lore" and "Religion," which are arguably of ambiguous fictionality, fall in the middle. "Science Fiction," which is probably the most non-fictional of the fiction genres, lies in the same quadrant, and exhibits the highest proportion of Latinate words of a fictional genre. Based on this calibration, we might say that high proportions of Latinate words (hereafter "L scores") in _Portrait_ would have a good chance of exhibiting styles similar to learned text, official documents, or non-fiction. 
 
-![Brown Corpus: Latinate Words](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/brown-lat.png){#fig:brown-lat}
+![Brown Corpus: Latinate Words](Data/Charts/brown-lat.png){#fig:brown-lat}
 
-![Brown Corpus: Hellenic Words](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/brown-hel.png){#fig:brown-hel} 
+![Brown Corpus: Hellenic Words](Data/Charts/brown-hel.png){#fig:brown-hel} 
 
 Among proportions of Hellenic words, as shown in [@fig:brown-hel], the picture is similar, but with a few key differences. Here, "religion" has a higher rank, and "government" a lower. Since Hellenic words represent such a tiny percentage of any given text, however---a total of 66 words for _Portrait_---we cannot treat measurements of this category as equally statistically significant. The same is even more true for proportions of words of Celtic origin, since only a single word was detected in that category. Germanic etymologies were inversely correlated with Latinate etymologies, and so these values are already roughly represented by L scores. Each of these categories deserves an in-depth discussion. 
 
@@ -46,11 +46,11 @@ The calibration experiments performed above suggest that high proportions of Lat
 
 As previously discussed, the hypothesis for the analysis of _Portrait_ was that there would be an increase in the L scores across chapters in the novel. [@fig:chapter-lat] shows that this hypothesis is partially confirmed. There is a significant rise in the proportions of Latinate words over chapters 1, 2, and 3, which would seem to correlate with the maturation of Stephen's thought and speech. The L score plateaus or drops in chapters 4 and 5, however. How might this be interpreted?
 
-![Chapters, L Scores](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/portrait-2g-w-lat.png){#fig:chapter-lat} 
+![Chapters, L Scores](Data/Charts/portrait-2g-w-lat.png){#fig:chapter-lat} 
 
 To answer this question, it is necessary to conduct a more granular analysis. [@fig:section-lat] shows the text is divided into sections based on John Paul Riquelme's structural divisions [-@Riquelme2007 307]. The L scores for these divisions exhibit much less of a simple progression from low to high. Where the climax of the chapter-based analysis seemed to be in Chapter 3, the climax here appears to be Chapter 4, Part 1. With the exception of Chapter 2, the longest and only five-section chapter, the highest L scores for each chapter come in the first section. The final sections of each chapter are among the lowest in L scores. 
 
-![Sections, L Scores](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/sections-latinate.png){#fig:section-lat} 
+![Sections, L Scores](Data/Charts/sections-latinate.png){#fig:section-lat} 
 
 Seen broadly, there is a pattern here suggestive of a what Riquelme calls a "structural rhythm"---a repeating sawtooth shape. A number of critics have noticed this cyclical structure. Sidney Bolt describes it thus: 
 
@@ -88,7 +88,7 @@ The double alliterative structure here---a string of s- words interrupted by a s
 ##Hellenic
 _Portrait_'s words of ancient Greek origin deserve a brief discussion. Greek words are some of the more difficult to quantify, since most of the Greek loanwords in English come to us through Latin, and a few (like "alchemy") through Arabic. When classical Greek works began to be rediscovered in 1453, after Greek scholars fled Turkish-occupied Constantinople, this brought with them a number of associated loanwords. This could explain why many Greek loanwords seem at home in Aristotle or Plato---_drama,_ _comedy,_ and _pathos_ recall the _Poetics_; _phenomenon,_ _noumenon,_ and _democracy_ seem appropriate to a Socratic dialogue. As the analysis of the Brown Corpus hints, religious words, too, are heavily Hellenic: _angel_, _evangelist_, _hagiography_, _bible,_ and so on, are all descended from Greek. We might find, therefore, that an aesthetic treatise of the kind Stephen presents in 5.1, or a religious sermon like Father Arnall's in 3.2, might contain a higher proportion of words of Hellenic origin. 
 
-![Sections, H Scores](/home/jon/Dropbox/Research/Reading Modernism with Machines Chapter/Data/Charts/sections-hellenic.png){#fig:section-hel}
+![Sections, H Scores](Data/Charts/sections-hellenic.png){#fig:section-hel}
 
 [@fig:section-hel] shows that those two sections have, respectively, the first and third highest H scores of any section. Father Arnall's sermon in section 3.2 features the emotionally-charged Hellenic words _agony,_ (which appears an amazing eight times in this section alone), _demon_ and _zealous,_ along with the more tame words _baptism,_ _poetry_, and _eon_. In section 5.1, those words are more befitting their setting in a physics classroom---_physics_, _energy_, and _kinetic_, along with _didactic_. These categories of religious and learned language are consistent with the analysis of the Brown corpus.^[The pattern of Hellenic words in [@fig:section-hel] also closely resembles patterns of religious images identified in a 1979 computational study of _Portrait_ by John B. Smith [-@Smith1980]. In this study, Smith counts "images" that belong to certain taxonomies like "fire" and "water," and plots them according to their location in the novel. The category of "religion" aligns very roughly with the Hellenic plot in [@fig:section-hel].]
 
