@@ -1,9 +1,10 @@
 { "default": {
 	"title": {
 		"A Portrait of the Artist as a Young Man": "P",
-		"The Study of Languages": "CW",
-		"Stephen Hero": "SH",
-		"Stephen Hero, Dubliners, and A Portrait of the Artist as a Young Man: Styles of Realism and Fantasy": "Styles of Realism"
+		"Stephen Hero, Dubliners, and A Portrait of the Artist as a Young Man: Styles of Realism and Fantasy": "Styles of Realism", 
+		"The Parts and the Structural Rhythm of A Portrait": "Structural Rhythm",
+		"A Classical Lexicon for Finnegans Wake: a Glossary of the Greek and Latin in the Major Works of Joyce incl. Finnegans Wake, the Poems, Dubliners, Stephen Hero, A Portrait of the Artist as a Young Man": "Classical",
+		"A Gaelic Lexicon for Finnegans Wake, and Glossary for Joyce's Other Works": "Gaelic" 
 	}
 }
 } 
