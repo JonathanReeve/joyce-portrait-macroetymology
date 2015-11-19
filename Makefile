@@ -11,3 +11,9 @@ docx:
 		--filter pandoc-citeproc
 	gvfs-open rmwm-chapter.docx &
 
+md: 
+	pandoc -o rmwm-chapter.html rmwm-chapter.md \
+		--filter pandoc-crossref \
+		--filter pandoc-citeproc 
+	pandoc -o rmwm-chapter-compiled.md rmwm-chapter.html 
+	gvfs-open rmwm-chapter-compiled.md &
