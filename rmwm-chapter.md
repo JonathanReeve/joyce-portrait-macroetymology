@@ -2,9 +2,8 @@
 title: A Macro-Etymological Analysis of James Joyce's _A Portrait of the Artist as a Young Man_
 author: Jonathan Reeve
 date: 1 May 2015
-bibliography: portrait-readings.bib 
+bibliography: portrait-readings.bib
 citation-abbreviations: citation-abbreviations.json
-csl: mla.csl
 nocite: | 
 	@joyce_portrait_2000, @gladstone_studies_1858
 figureTitle: Figure
